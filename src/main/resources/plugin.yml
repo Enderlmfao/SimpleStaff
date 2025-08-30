@@ -1,0 +1,15 @@
+name: StaffMode
+version: '1.0'
+main: com.ender.staffMode.StaffMode
+api-version: '1.19'
+authors: [ EnderRogue81 ]
+description: A staff mode plugin.
+commands:
+  h:
+    description: Toggles staff mode.
+    usage: /h
+    permission: staffMode.use
+permissions:
+  staffMode.use:
+    description: Allows the user to toggle staff mode.
+    default: op
